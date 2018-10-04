@@ -1,0 +1,9 @@
+<button (click)="toggle()" >Please click</button>
+<div *ngIf = "isCollapsed">
+  <p *ngFor="let a of arra(); let i= index">
+    {{a}}
+    </p>
+</div>
+
+
+<router-outlet></router-outlet>
